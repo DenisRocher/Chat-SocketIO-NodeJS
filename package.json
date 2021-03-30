@@ -1,0 +1,23 @@
+{
+  "name": "curso-sockets",
+  "version": "1.0.0",
+  "description": "Proyecto Chat SocketIO NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DenisRocher/Chat-SocketIO-NodeJS.git"
+  },
+  "author": "Denis Rocher - denis.rocher@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
